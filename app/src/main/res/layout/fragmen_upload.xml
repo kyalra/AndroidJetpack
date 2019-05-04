@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center">
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Choose Upload Type"
+              android:textSize="30sp"
+              android:textColor="#CE6526"/>
+    <Button
+            android:id="@+id/btnUpload_1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_fragmen"
+            android:text="FULL COST TYPE"
+            android:textColor="#fff"
+            android:backgroundTint="#802020"
+            android:textSize="20sp"/>
+    <Button
+            android:id="@+id/btnUpload_2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_fragmen"
+            android:text="OTHER ASK TYPE"
+            android:textColor="#fff"
+            android:backgroundTint="#802020"
+            android:textSize="20sp"/>
+    <Button
+            android:id="@+id/btnUpload_3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_fragmen"
+            android:text="PEOPLE WANTED TYPE"
+            android:textColor="#fff"
+            android:backgroundTint="#802020"
+            android:textSize="20sp"/>
+
+</LinearLayout>

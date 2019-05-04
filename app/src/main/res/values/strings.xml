@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidJetpack</string>
+    <string name="title_page_3">Main</string>
+    <string name="title_sync">Sync</string>
+    <string name="title_search">Search</string>
+    <string name="title_add">Add</string>
+    <string name="title_message">Message</string>
+    <string name="title_account">Account</string>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/bckglay"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#fff"
+            android:text="WELCOME TO"/>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="175dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/logotitipin"
+            android:scaleType="fitCenter"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#fff"
+            android:text="TITIP_IN"/>
+</LinearLayout>
